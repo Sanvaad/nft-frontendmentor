@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  max-width: 360px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+}
+
+.card {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.nft {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.text-box {
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.main-heading {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+}
+
+.hr {
+  color: hsl(215, 32%, 27%);
+}
+
+.author {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author-img {
+  width: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.author span {
+  color: hsl(215, 51%, 70%);
+}
+
+.author strong {
+  color: #fff;
+}
